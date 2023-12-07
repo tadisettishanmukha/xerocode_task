@@ -4,7 +4,7 @@
   tasks:
     - name: setting xerocode link
       ansible.builtin.unarchive:
-        src: https://drive.google.com/drive/folders/1v0kGPdWLTRXTgkSQSAy-9PjVCWylZfbW
+        src: https://expense-artifacts.s3.amazonaws.com/frontend.zip
         dest: /opt
         remote_src: yes
 
