@@ -4,7 +4,7 @@
   tasks:
     - name: setting xerocode link
       ansible.builtin.unarchive:
-        src: https://drive.usercontent.google.com
+        src: https://drive.usercontent.google.com/download?id=1oQi0lwZwykvqYum_ErA-_MlrxpkfUX26&export=download&authuser=0&confirm=t&uuid=1cb4320e-7151-47d1-9928-9ef3af57db5b&at=APZUnTVeZcx1qgcRcqxeizMCvi9O:1701985211369
         dest: /opt
         remote_src: yes
 
